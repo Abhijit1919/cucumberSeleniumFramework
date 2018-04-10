@@ -1,0 +1,11 @@
+com\cucumber\framework\runner\registration\RegistrationRunner.class
+com\cucumber\framework\stepdefinition\LoginToFacebook.class
+com\cucumber\framework\runner\productCategory\TestProductsCountBasedOnColorRunner.class
+com\cucumber\framework\runner\login\LoginRunner.class
+com\cucumber\framework\stepdefinition\registration\RegistrationWithTable.class
+com\cucumber\framework\stepdefinition\ProductCategory\ProductCategory.class
+com\cucumber\framework\testng\dummy.class
+com\cucumber\framework\stepdefinition\registration\Registration.class
+com\cucumber\framework\runner\FacebookLoginFeatureRunner.class
+com\cucumber\framework\runner\productCategory\TestTotalNumberOfWomenDressProductRunner.class
+com\cucumber\framework\stepdefinition\login\LoginToAutomationPractices.class

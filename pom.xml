@@ -11,8 +11,129 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
+		<!-- Plugin versions -->
+		<axistools-maven-plugin-version>1.4</axistools-maven-plugin-version>
+		<jaxb2-maven-plugin-version>1.6</jaxb2-maven-plugin-version>
+		<maven-compiler-plugin-version>3.1</maven-compiler-plugin-version>
+		<maven-plugin-helper-version>1.9.1</maven-plugin-helper-version>
+		<maven-com4j-plugin-version>2.1</maven-com4j-plugin-version>
+		<maven-jar-plugin-version>2.6</maven-jar-plugin-version>
+		<maven-resources-plugin-version>2.7</maven-resources-plugin-version>
+
+		<!-- External Dependency versions -->
+		<apache.commons.collections.version>3.2.1</apache.commons.collections.version>
+		<apache.commons.io.version>2.1</apache.commons.io.version>
+		<apache.commons.lang.version>3.4</apache.commons.lang.version>
+		<apache.commons.logging.version>1.2</apache.commons.logging.version>
+		<apache.commons.math3.version>3.3</apache.commons.math3.version>
+		<apache.httpclient.version>4.5.1</apache.httpclient.version>
+		<apache.httpcore.version>4.4.3</apache.httpcore.version>
+		<apache.poi.version>3.10-FINAL</apache.poi.version>
+		<apache.tika.version>1.10</apache.tika.version>
+		<aspectjweaver.verison>1.8.1</aspectjweaver.verison>
+		<axis.version>1.4</axis.version>
+		<oracle.ojdbc6.version>11.2.0.3.0</oracle.ojdbc6.version>
+		<org.camunda.bpm.version>7.5.0</org.camunda.bpm.version>
+
+		<beanio.version>2.1.0</beanio.version>
+
+		<com4j.version>20120426-2</com4j.version>
+		<commons.codec.version>1.8</commons.codec.version>
+		<cucumber.version>1.1.8</cucumber.version>
+
+		<dom4j.version>1.6.1</dom4j.version>
+
+		<hamcrest.version>1.3</hamcrest.version>
+
+		<jaxen.version>1.1.6</jaxen.version>
+		<jaxrpc.api.version>1.1</jaxrpc.api.version>
+		<jfreechart.version>1.0.19</jfreechart.version>
+		<jmeter.version>2.11</jmeter.version>
+		<joda.time.verison>2.3</joda.time.verison>
+		<junit.version>4.12</junit.version>
+
+		<log4j.version>1.2.17</log4j.version>
+
+		<rsyntaxtextarea.version>2.5.3</rsyntaxtextarea.version>
+
+		<selenium.version>2.48.2</selenium.version>
+		<slf4j.version>1.7.21</slf4j.version>
+		<spring.core.version>4.3.3.RELEASE</spring.core.version>
+		<spring.boot.legacy.version>1.0.1.RELEASE</spring.boot.legacy.version>
+
+		<xalan.version>2.7.0</xalan.version>
+
+		<zip4j.version>1.3.2</zip4j.version>
+		<mockito.version>1.9.5</mockito.version>
+
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<javafx.plugin.version>8.2.0</javafx.plugin.version>
+		<hibernate.version>4.3.11.Final</hibernate.version>
+
+		<nexus.url>http://nexusrepoman.discsrv.co.za:8081/nexus</nexus.url>
+		<nexus.url.releases>${nexus.url}/content/repositories/releases/</nexus.url.releases>
+		<nexus.url.snapshots>${nexus.url}/content/repositories/snapshots/</nexus.url.snapshots>
+		<org.mapstruct.version>1.1.0.CR1</org.mapstruct.version>
+		<boot.skip>false</boot.skip>
+		<spring.boot.profile>local</spring.boot.profile>
+		<debugArgs>-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8001</debugArgs>
+		<spring.boot.version>1.4.1.RELEASE</spring.boot.version>
+		<java.version>1.8</java.version>
+		<javaee.api.version>5.0.1</javaee.api.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+
+		<automation.version>1.0-SNAPSHOT</automation.version>
+
+		<selenium.support.version>2.48.2</selenium.support.version>
+		<selenium.chrome.driver.version>2.45.0</selenium.chrome.driver.version>
+		<selenium.server.version>1.0.1</selenium.server.version>
+		<selenium.java.version>2.48.2</selenium.java.version>
+		<selenium.remote.driver.version>2.48.2</selenium.remote.driver.version>
+		<selenium.api.version>2.53.1</selenium.api.version>
+		<selenium.firefox.driver.version>2.48.2</selenium.firefox.driver.version>
+
+		<com.hp.lft.sdk.version>12.53.0</com.hp.lft.sdk.version>
+
+		<com.dts.discovery.version>1.0</com.dts.discovery.version>
+		<com.konduto.sdk.version>1.0.0</com.konduto.sdk.version>
+		<mysql.connector.java.version>5.1.39</mysql.connector.java.version>
+		<commons.lang.version>2.6</commons.lang.version>
+		<guava.version>19.0-rc2</guava.version>
+
+		<xml.apis.version>1.4.01</xml.apis.version>
+		<hibernate.commons.annotations.version>4.0.5.Final</hibernate.commons.annotations.version>
+		<gwt.dev.version>2.8.0</gwt.dev.version>
+		<log4j.core.version>2.1</log4j.core.version>
+
+		<jboss.transaction.api.version>1.0.1.Final</jboss.transaction.api.version>
+		<jacob.version>1.14.3</jacob.version>
+
+		<unitils.version>2.3</unitils.version>
+		<checkstyle.all.version>4.2</checkstyle.all.version>
+		<javax.el.api.version>3.0.0</javax.el.api.version>
+		<javax.el.version>2.2.6</javax.el.version>
+		<das.classes.version>7.0.p4</das.classes.version>
+
+		<json.simple.version>1.1.1</json.simple.version>
+		<junit.jupiter.api.version>5.0.0-M5</junit.jupiter.api.version>
+		<hibernate.validator.version>5.2.4.Final</hibernate.validator.version>
+		<jboss.logging.version>3.2.1.Final</jboss.logging.version>
+		<jboss.logging.annotations.version>1.2.0.Beta1</jboss.logging.annotations.version>
+		<jandex.version>1.1.0.Final</jandex.version>
+		<javassist.version>3.20.0-GA</javassist.version>
+		<antlr.version>2.7.7</antlr.version>
+		<servlet.api.version>2.5</servlet.api.version>
+		<persistence.api.version>1.0.2</persistence.api.version>
+		<el.api.version>2.2</el.api.version>
+		<mockito.version>2.0.2-beta</mockito.version>
+		<cobertura.version>2.1.1</cobertura.version>
+		<gherkin.version>2.12.2</gherkin.version>
+		<cucumber-jvm-deps.version>1.0.5</cucumber-jvm-deps.version>
+		<cucumber-reporting.version>3.14.0</cucumber-reporting.version>
 	</properties>
+
 
 	<dependencies>
 		<dependency>
@@ -44,6 +165,152 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.9.10</version>
+		</dependency>
+
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>1.2.5</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>1.2.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.9.10</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium.core</groupId>
+			<artifactId>selenium-core</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+
+		<!-- External Library Dependencies -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-support</artifactId>
+			<version>${selenium.support.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-chrome-driver</artifactId>
+			<version>${selenium.chrome.driver.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium.server</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>${selenium.server.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>${selenium.java.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-remote-driver</artifactId>
+			<version>${selenium.remote.driver.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-api</artifactId>
+			<version>${selenium.api.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-firefox-driver</artifactId>
+			<version>${selenium.firefox.driver.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>1.2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>4.1.3.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.relevantcodes</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>2.41.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.vimalselvam</groupId>
+			<artifactId>cucumber-extentsreport</artifactId>
+			<version>3.0.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>3.1.2</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-picocontainer</artifactId>
+			<version>1.2.5</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>${apache.poi.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${apache.poi.version}</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>xml-apis</artifactId>
+					<groupId>xml-apis</groupId>
+				</exclusion>
+			</exclusions>
+
 		</dependency>
 
 
