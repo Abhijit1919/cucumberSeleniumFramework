@@ -8,7 +8,7 @@ import za.co.discovery.cucumber.framework.managers.FileReaderManager;
 
 import java.io.File;
 
-@CucumberOptions(features = {"classpath:featurefile/login/AMS_Login.feature"
+@CucumberOptions(features = {"classpath:featurefile/login/AMS_Login.feature","classpath:featurefile/login/AMS_Nagithion_To_MyDetails.feature"
 		},
 		glue = {
 		"classpath:za.co.discovery.cucumber.framework.stepdefinition",

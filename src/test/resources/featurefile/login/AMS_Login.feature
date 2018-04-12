@@ -7,5 +7,5 @@ Scenario: Verify navigation to MY_PLANS_AND_BENEFITS
   And User should be able to click on "UserName" and enter "AMSMcp1"
   And User should be able to click on "Password" and enter "password1"
   And User Should able to click on "LOGIN_Button"
-  Then User Should able to click on "MY_DETAILS"
+  Then Verify Page Title "AMS_HomePage_Title"
 

@@ -1429,3 +1429,191 @@ Session ID: b85aedfa2ee3d13ccaeb421231d745f1
 2018-04-09 16:51:58 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....LOGIN_Button
 2018-04-09 16:52:08 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....MY_DETAILS
 2018-04-09 16:52:24 [INFO ] [TestBase] - [after] 
+2018-04-10 15:01:06 [ERROR] [GetDataFromExcel] - [medicalQuestionsLookup] [Ljava.lang.StackTraceElement;@1bcf458
+2018-04-10 15:01:06 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 15:01:30 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 15:01:33 [INFO ] [WaitHelper] - [waitForElement] element found...LOG IN
+2018-04-10 15:01:33 [INFO ] [LoginToAutomationPractices] - [navigateToApplication] Website open
+2018-04-10 15:02:18 [INFO ] [TestBase] - [after] 
+2018-04-10 15:04:02 [ERROR] [GetDataFromExcel] - [medicalQuestionsLookup] [Ljava.lang.StackTraceElement;@1bcf458
+2018-04-10 15:04:02 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 15:04:16 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 15:04:20 [INFO ] [WaitHelper] - [waitForElement] element found...LOG IN
+2018-04-10 15:04:20 [INFO ] [LoginToAutomationPractices] - [navigateToApplication] Website open
+2018-04-10 15:05:17 [ERROR] [GetDataFromExcel] - [medicalQuestionsLookup] [Ljava.lang.StackTraceElement;@1bcf458
+2018-04-10 15:05:18 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 15:11:01 [ERROR] [GetDataFromExcel] - [medicalQuestionsLookup] [Ljava.lang.StackTraceElement;@1bcf458
+2018-04-10 15:11:01 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 15:12:10 [INFO ] [GetDataFromExcel] - [medicalQuestionsLookup] (Error) We did not find the question you specified on the list
+2018-04-10 15:12:10 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 15:12:25 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 15:12:29 [INFO ] [WaitHelper] - [waitForElement] element found...LOG IN
+2018-04-10 15:12:29 [INFO ] [LoginToAutomationPractices] - [navigateToApplication] Website open
+2018-04-10 15:12:30 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....OPEN_LOGIN_POPUP
+2018-04-10 15:12:40 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....UserName
+2018-04-10 15:12:40 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....Password
+2018-04-10 15:12:45 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....LOGIN_Button
+2018-04-10 15:12:56 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....MY_DETAILS
+2018-04-10 15:13:15 [INFO ] [TestBase] - [after] 
+2018-04-10 16:46:38 [INFO ] [GetDataFromExcel] - [medicalQuestionsLookup] (Error) We did not find the question you specified on the list
+2018-04-10 16:46:38 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 16:46:56 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 16:47:00 [INFO ] [WaitHelper] - [waitForElement] element found...LOG IN
+2018-04-10 16:47:00 [INFO ] [LoginToAutomationPractices] - [navigateToApplication] Website open
+2018-04-10 16:47:00 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....OPEN_LOGIN_POPUP
+2018-04-10 16:47:11 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....UserName
+2018-04-10 16:47:11 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....Password
+2018-04-10 16:47:16 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....LOGIN_Button
+2018-04-10 16:47:26 [INFO ] [LoginPage] - [verifyPageTitle] Page Title as expected..
+2018-04-10 16:47:26 [INFO ] [LoginToAutomationPractices] - [verifyPageTitle] page Title Matching
+2018-04-10 16:47:30 [INFO ] [TestBase] - [after] 
+2018-04-10 17:17:11 [INFO ] [GetDataFromExcel] - [medicalQuestionsLookup] (Error) We did not find the question you specified on the list
+2018-04-10 17:17:11 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 17:17:33 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 17:17:38 [INFO ] [WaitHelper] - [waitForElement] element found...LOG IN
+2018-04-10 17:17:38 [INFO ] [LoginToAutomationPractices] - [navigateToApplication] Website open
+2018-04-10 17:17:39 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....OPEN_LOGIN_POPUP
+2018-04-10 17:17:49 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....UserName
+2018-04-10 17:17:49 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....Password
+2018-04-10 17:17:55 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....LOGIN_Button
+2018-04-10 17:18:05 [INFO ] [LoginPage] - [verifyPageTitle] Page Title as expected..
+2018-04-10 17:18:05 [INFO ] [LoginToAutomationPractices] - [verifyPageTitle] page Title Matching
+2018-04-10 17:18:11 [INFO ] [TestBase] - [after] 
+2018-04-10 17:18:11 [INFO ] [GetDataFromExcel] - [medicalQuestionsLookup] (Error) We did not find the question you specified on the list
+2018-04-10 17:18:11 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 17:18:20 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 17:18:42 [INFO ] [TestBase] - [after] 
+2018-04-10 17:18:42 [INFO ] [GetDataFromExcel] - [medicalQuestionsLookup] (Error) We did not find the question you specified on the list
+2018-04-10 17:18:42 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 17:18:54 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 17:19:16 [INFO ] [TestBase] - [after] 
+2018-04-10 17:19:16 [INFO ] [GetDataFromExcel] - [medicalQuestionsLookup] (Error) We did not find the question you specified on the list
+2018-04-10 17:19:16 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 17:19:34 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 17:19:56 [INFO ] [TestBase] - [after] 
+2018-04-10 17:19:56 [INFO ] [GetDataFromExcel] - [medicalQuestionsLookup] (Error) We did not find the question you specified on the list
+2018-04-10 17:19:56 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 17:20:12 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 17:20:57 [INFO ] [GetDataFromExcel] - [medicalQuestionsLookup] (Error) We did not find the question you specified on the list
+2018-04-10 17:20:57 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 17:21:10 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 17:21:15 [INFO ] [WaitHelper] - [waitForElement] element found...LOG IN
+2018-04-10 17:21:15 [INFO ] [LoginToAutomationPractices] - [navigateToApplication] Website open
+2018-04-10 17:21:15 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....OPEN_LOGIN_POPUP
+2018-04-10 17:21:25 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....UserName
+2018-04-10 17:21:25 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....Password
+2018-04-10 17:21:33 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....LOGIN_Button
+2018-04-10 17:21:43 [INFO ] [LoginPage] - [verifyPageTitle] Page Title as expected..
+2018-04-10 17:21:43 [INFO ] [LoginToAutomationPractices] - [verifyPageTitle] page Title Matching
+2018-04-10 17:21:48 [INFO ] [TestBase] - [after] 
+2018-04-10 17:21:48 [INFO ] [GetDataFromExcel] - [medicalQuestionsLookup] (Error) We did not find the question you specified on the list
+2018-04-10 17:21:48 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 17:22:00 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 17:22:04 [INFO ] [WaitHelper] - [waitForElement] element found...LOG IN
+2018-04-10 17:22:04 [INFO ] [LoginToAutomationPractices] - [navigateToApplication] Website open
+2018-04-10 17:22:04 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....OPEN_LOGIN_POPUP
+2018-04-10 17:22:14 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....UserName
+2018-04-10 17:22:14 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....Password
+2018-04-10 17:22:59 [INFO ] [GetDataFromExcel] - [medicalQuestionsLookup] (Error) We did not find the question you specified on the list
+2018-04-10 17:22:59 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 17:23:15 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 17:23:18 [INFO ] [WaitHelper] - [waitForElement] element found...LOG IN
+2018-04-10 17:23:18 [INFO ] [LoginToAutomationPractices] - [navigateToApplication] Website open
+2018-04-10 17:23:18 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....OPEN_LOGIN_POPUP
+2018-04-10 17:23:29 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....UserName
+2018-04-10 17:23:29 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....Password
+2018-04-10 17:23:33 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....LOGIN_Button
+2018-04-10 17:23:43 [INFO ] [LoginPage] - [verifyPageTitle] Page Title as expected..
+2018-04-10 17:23:43 [INFO ] [LoginToAutomationPractices] - [verifyPageTitle] page Title Matching
+2018-04-10 17:23:48 [INFO ] [TestBase] - [after] 
+2018-04-10 17:23:48 [INFO ] [GetDataFromExcel] - [medicalQuestionsLookup] (Error) We did not find the question you specified on the list
+2018-04-10 17:23:48 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 17:24:00 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 17:24:04 [INFO ] [WaitHelper] - [waitForElement] element found...LOG IN
+2018-04-10 17:24:04 [INFO ] [LoginToAutomationPractices] - [navigateToApplication] Website open
+2018-04-10 17:24:05 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....OPEN_LOGIN_POPUP
+2018-04-10 17:24:15 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....UserName
+2018-04-10 17:24:15 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....Password
+2018-04-10 17:24:17 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....LOGIN_Button
+2018-04-10 17:25:10 [INFO ] [TestBase] - [after] 
+2018-04-10 17:25:10 [INFO ] [GetDataFromExcel] - [medicalQuestionsLookup] (Error) We did not find the question you specified on the list
+2018-04-10 17:25:10 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 17:25:22 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 17:25:24 [INFO ] [WaitHelper] - [waitForElement] element found...LOG IN
+2018-04-10 17:25:24 [INFO ] [LoginToAutomationPractices] - [navigateToApplication] Website open
+2018-04-10 17:25:24 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....OPEN_LOGIN_POPUP
+2018-04-10 17:25:35 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....UserName
+2018-04-10 17:25:35 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....Password
+2018-04-10 17:25:37 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....LOGIN_Button
+2018-04-10 17:27:17 [INFO ] [GetDataFromExcel] - [medicalQuestionsLookup] (Error) We did not find the question you specified on the list
+2018-04-10 17:27:17 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 17:27:31 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 17:27:37 [INFO ] [WaitHelper] - [waitForElement] element found...LOG IN
+2018-04-10 17:27:37 [INFO ] [LoginToAutomationPractices] - [navigateToApplication] Website open
+2018-04-10 17:27:37 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....OPEN_LOGIN_POPUP
+2018-04-10 17:27:47 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....UserName
+2018-04-10 17:27:47 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....Password
+2018-04-10 17:27:54 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....LOGIN_Button
+2018-04-10 17:28:04 [INFO ] [LoginPage] - [verifyPageTitle] Page Title as expected..
+2018-04-10 17:28:04 [INFO ] [LoginToAutomationPractices] - [verifyPageTitle] page Title Matching
+2018-04-10 17:28:09 [INFO ] [TestBase] - [after] 
+2018-04-10 17:28:09 [INFO ] [GetDataFromExcel] - [medicalQuestionsLookup] (Error) We did not find the question you specified on the list
+2018-04-10 17:28:09 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 17:28:23 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 17:28:26 [INFO ] [WaitHelper] - [waitForElement] element found...LOG IN
+2018-04-10 17:28:26 [INFO ] [LoginToAutomationPractices] - [navigateToApplication] Website open
+2018-04-10 17:28:26 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....OPEN_LOGIN_POPUP
+2018-04-10 17:28:37 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....UserName
+2018-04-10 17:28:37 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....Password
+2018-04-10 17:28:47 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....LOGIN_Button
+2018-04-10 17:28:57 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....MY_DETAILS
+2018-04-10 17:29:09 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....Give_Dependant_Access
+2018-04-10 17:29:23 [INFO ] [TestBase] - [after] 
+2018-04-10 17:29:24 [INFO ] [GetDataFromExcel] - [medicalQuestionsLookup] (Error) We did not find the question you specified on the list
+2018-04-10 17:29:24 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 17:29:36 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 17:29:39 [INFO ] [WaitHelper] - [waitForElement] element found...LOG IN
+2018-04-10 17:29:39 [INFO ] [LoginToAutomationPractices] - [navigateToApplication] Website open
+2018-04-10 17:29:40 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....OPEN_LOGIN_POPUP
+2018-04-10 17:29:50 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....UserName
+2018-04-10 17:29:50 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....Password
+2018-04-10 17:29:55 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....LOGIN_Button
+2018-04-10 17:30:06 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....MY_DETAILS
+2018-04-10 17:30:16 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....Personal_Information
+2018-04-10 17:30:30 [INFO ] [TestBase] - [after] 
+2018-04-10 17:30:30 [INFO ] [GetDataFromExcel] - [medicalQuestionsLookup] (Error) We did not find the question you specified on the list
+2018-04-10 17:30:30 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 17:30:43 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 17:30:47 [INFO ] [WaitHelper] - [waitForElement] element found...LOG IN
+2018-04-10 17:30:47 [INFO ] [LoginToAutomationPractices] - [navigateToApplication] Website open
+2018-04-10 17:30:47 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....OPEN_LOGIN_POPUP
+2018-04-10 17:30:58 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....UserName
+2018-04-10 17:30:58 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....Password
+2018-04-10 17:31:03 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....LOGIN_Button
+2018-04-10 17:31:13 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....MY_DETAILS
+2018-04-10 17:31:23 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....View_Dependants
+2018-04-10 17:31:38 [INFO ] [TestBase] - [after] 
+2018-04-10 17:31:38 [INFO ] [GetDataFromExcel] - [medicalQuestionsLookup] (Error) We did not find the question you specified on the list
+2018-04-10 17:31:38 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 17:31:49 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 17:31:53 [INFO ] [WaitHelper] - [waitForElement] element found...LOG IN
+2018-04-10 17:31:53 [INFO ] [LoginToAutomationPractices] - [navigateToApplication] Website open
+2018-04-10 17:31:54 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....OPEN_LOGIN_POPUP
+2018-04-10 17:32:04 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....UserName
+2018-04-10 17:32:04 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....Password
+2018-04-10 17:32:09 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....LOGIN_Button
+2018-04-10 17:32:19 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....MY_DETAILS
+2018-04-10 17:32:29 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....Manage_Consent
+2018-04-10 17:32:44 [INFO ] [TestBase] - [after] 
+2018-04-10 17:32:44 [INFO ] [GetDataFromExcel] - [medicalQuestionsLookup] (Error) We did not find the question you specified on the list
+2018-04-10 17:32:44 [INFO ] [TestBase] - [getBrowserObject] Chrome
+2018-04-10 17:32:56 [INFO ] [TestBase] - [before] Chrome
+2018-04-10 17:32:59 [INFO ] [WaitHelper] - [waitForElement] element found...LOG IN
+2018-04-10 17:32:59 [INFO ] [LoginToAutomationPractices] - [navigateToApplication] Website open
+2018-04-10 17:32:59 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....OPEN_LOGIN_POPUP
+2018-04-10 17:33:10 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....UserName
+2018-04-10 17:33:10 [INFO ] [LoginToAutomationPractices] - [userShouldBeAbleToClickOnAndEnter] Click Action perfrom on.....Password
+2018-04-10 17:33:16 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....LOGIN_Button
+2018-04-10 17:33:26 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....MY_DETAILS
+2018-04-10 17:33:38 [INFO ] [LoginToAutomationPractices] - [userShouldAbleToClickOn] Click Action perfrom on.....Website_preferences
+2018-04-10 17:33:53 [INFO ] [TestBase] - [after] 
