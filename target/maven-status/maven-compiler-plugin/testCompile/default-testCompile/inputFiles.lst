@@ -1,11 +1,5 @@
-C:\Users\abhijit1\IdeaProjects\CucumberSeleniumFrameworkTest\cucumberSeleniumFramework\src\test\java\com\cucumber\framework\stepdefinition\LoginToFacebook.java
-C:\Users\abhijit1\IdeaProjects\CucumberSeleniumFrameworkTest\cucumberSeleniumFramework\src\test\java\com\cucumber\framework\runner\registration\RegistrationRunner.java
-C:\Users\abhijit1\IdeaProjects\CucumberSeleniumFrameworkTest\cucumberSeleniumFramework\src\test\java\com\cucumber\framework\testng\dummy.java
-C:\Users\abhijit1\IdeaProjects\CucumberSeleniumFrameworkTest\cucumberSeleniumFramework\src\test\java\com\cucumber\framework\runner\login\LoginRunner.java
-C:\Users\abhijit1\IdeaProjects\CucumberSeleniumFrameworkTest\cucumberSeleniumFramework\src\test\java\com\cucumber\framework\runner\productCategory\TestTotalNumberOfWomenDressProductRunner.java
-C:\Users\abhijit1\IdeaProjects\CucumberSeleniumFrameworkTest\cucumberSeleniumFramework\src\test\java\com\cucumber\framework\runner\FacebookLoginFeatureRunner.java
-C:\Users\abhijit1\IdeaProjects\CucumberSeleniumFrameworkTest\cucumberSeleniumFramework\src\test\java\com\cucumber\framework\runner\productCategory\TestProductsCountBasedOnColorRunner.java
-C:\Users\abhijit1\IdeaProjects\CucumberSeleniumFrameworkTest\cucumberSeleniumFramework\src\test\java\com\cucumber\framework\stepdefinition\registration\Registration.java
-C:\Users\abhijit1\IdeaProjects\CucumberSeleniumFrameworkTest\cucumberSeleniumFramework\src\test\java\com\cucumber\framework\stepdefinition\registration\RegistrationWithTable.java
-C:\Users\abhijit1\IdeaProjects\CucumberSeleniumFrameworkTest\cucumberSeleniumFramework\src\test\java\com\cucumber\framework\stepdefinition\login\LoginToAutomationPractices.java
-C:\Users\abhijit1\IdeaProjects\CucumberSeleniumFrameworkTest\cucumberSeleniumFramework\src\test\java\com\cucumber\framework\stepdefinition\ProductCategory\ProductCategory.java
+C:\Users\abhijit1\IdeaProjects\CucumberSeleniumTestNgFramework\cucumberSeleniumFrameworkTestNg\src\test\java\za\co\discovery\cucumber\framework\runner\login\MalcoreLoginRunner.java
+C:\Users\abhijit1\IdeaProjects\CucumberSeleniumTestNgFramework\cucumberSeleniumFrameworkTestNg\src\test\java\za\co\discovery\cucumber\framework\runner\login\DiscoveryLoginRunner.java
+C:\Users\abhijit1\IdeaProjects\CucumberSeleniumTestNgFramework\cucumberSeleniumFrameworkTestNg\src\test\java\za\co\discovery\cucumber\framework\runner\login\LoginRunner.java
+C:\Users\abhijit1\IdeaProjects\CucumberSeleniumTestNgFramework\cucumberSeleniumFrameworkTestNg\src\test\java\za\co\discovery\cucumber\framework\testng\dummy.java
+C:\Users\abhijit1\IdeaProjects\CucumberSeleniumTestNgFramework\cucumberSeleniumFrameworkTestNg\src\test\java\za\co\discovery\cucumber\framework\runner\login\AMSLoginRunner.java

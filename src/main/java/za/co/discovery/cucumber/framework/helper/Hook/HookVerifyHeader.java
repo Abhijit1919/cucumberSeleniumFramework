@@ -16,7 +16,7 @@ public class HookVerifyHeader {
     private final Logger log = LoggerHelper.getLogger(LoginPage.class);
     WaitHelper waitHelper;
 
-    public boolean verifyHeader(String action) {
+    public boolean verifHeader(String action) {
 
         String TYPE = "", identifier = "";
         GetDataFromExcel getDataFromExcel = new GetDataFromExcel();

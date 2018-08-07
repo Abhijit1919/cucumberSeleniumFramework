@@ -15,16 +15,20 @@ import za.co.discovery.cucumber.framework.configreader.PropertyFileReader;
 import za.co.discovery.cucumber.framework.configuration.browser.*;
 import za.co.discovery.cucumber.framework.helper.Excel.GetDataFromExcel;
 import za.co.discovery.cucumber.framework.helper.Logger.LoggerHelper;
+import za.co.discovery.cucumber.framework.helper.TrasnferFiles.TransferFiles;
 import za.co.discovery.cucumber.framework.listener.Reporter;
 import za.co.discovery.cucumber.framework.utility.DateTimeHelper;
 import za.co.discovery.cucumber.framework.utility.ResourceHelper;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.InetAddress;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
+
+import static za.co.discovery.cucumber.framework.listener.Reporter.addScreenCaptureFromPath;
 
 
 /**
@@ -32,9 +36,10 @@ import java.util.concurrent.TimeUnit;
  * @author bsingh5
  *
  */
-public class TestBase {
+	public class TestBase {
 
-	private final Logger log = LoggerHelper.getLogger(TestBase.class);
+		private final Logger log = LoggerHelper.getLogger(TestBase.class);
+
 	
 	public static WebDriver driver;
 
@@ -158,6 +163,7 @@ public class TestBase {
 	
 	@Before
 	public void before() throws Exception {
+		Reporter.assignAuthor("WebSite Automatiopn QA- Abhijit Totewar");
 
 		readinfExcelInBefore();
 
@@ -166,75 +172,110 @@ public class TestBase {
 		log.info(ObjectRepo.reader.getBrowser());
 	}
 
-	@After
+	@After(order = 1)
 	public void after(Scenario scenario) throws Exception {
 
-		//WriteExtentReport new =
+		TransferFiles files = new TransferFiles();
+		String buildPath;
+		String finalFile;
+
         if (scenario.isFailed()) {
-            String screenshotName = scenario.getName().replaceAll("", "_");
+			Random r = new Random();
+			int Low = 100000;
+			int High = 999999;
+			int random = r.nextInt(High - Low) + Low;
+
+            String screenshotName = scenario.getName().replaceAll(" ", "_") + "_" + String.valueOf(random);
             try {
+                //This takes a screenshot from the driver at save it to the specified location
                 File sourcePath = (((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE));
 
-				Thread.sleep(3000);
-                File desstinationPath = new File(System.getProperty("user.dir") + "/target/cucumber-extend-reports/screenshots/");
+                InetAddress addr;
+                addr = InetAddress.getLocalHost();
 
-                if(!desstinationPath.exists()){
-                    desstinationPath.mkdirs();
-                }
+                buildPath = String.valueOf(sourcePath).replaceAll("C:", addr.getHostName());
+                finalFile = "//" + buildPath.replaceAll("\\\\", "/");
 
-                if(sourcePath.isFile() && desstinationPath.isDirectory()){
+                files.transferFiles(finalFile,screenshotName,"png");
 
-					Random r = new Random();
-					int Low = 100000;
-					int High = 999999;
-					int random = r.nextInt(High - Low) + Low;
-
-
-
-					File destinationFile = new File(desstinationPath + "/" + screenshotName+"_"+String.valueOf(random)+".png");
-                    if(destinationFile.exists()){
-                        destinationFile.delete();
-						Thread.sleep(5000);
-                        FileUtils.copyFile(sourcePath, destinationFile);
-                    }else{
-						Thread.sleep(5000);
-
-                        FileUtils.copyFile(sourcePath, destinationFile);
-                    }
-                    Thread.sleep(5000);
-                    Reporter.addScreenCaptureFromPath(destinationFile.getAbsolutePath());
-
-                    //destinationFile.delete();
-					Thread.sleep(2000);
-                    //sourcePath.delete();
-
-					Thread.sleep(2000);
-                }
-
-
+                //This attach the specified screenshot to the test
+                addScreenCaptureFromPath("//DHTQTP01/MobileScreenShots/" + screenshotName + ".png");
             } catch (IOException e) {
-
+                // e.printStackTrace();
             }
-
-            //File sourcePath = (((TakesScreenshot)Driver.Instance).getScreenshotAs(OutputType.BYTES),"image/png");
-            //String screenshotPath = BeforeAfter.getScreenshot((Driver) Driver.Instance, result.getName());
-            //extentTest.log(LogStatus.FAIL, extentTest.addScreenCapture(screenshotPath)); //to add screenshot in extent report
-//        }else{
-//            scenario.write("Scenario Passed");
-//        }
-
-
         }
-        //Driver.Instance.close();
-        //tearDown();
 
+
+        //-------------code imp--------------
+//        if (scenario.isFailed()) {
+//            String screenshotName = scenario.getName().replaceAll("", "_");
+//            try {
+//                File sourcePath = (((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE));
+//
+////				Thread.sleep(3000);
+//                File desstinationPath = new File(System.getProperty("user.dir") + "/target/cucumber-extend-reports/screenshots/");
+//
+//                if(!desstinationPath.exists()){
+//                    desstinationPath.mkdirs();
+//                }
+//
+//                if(sourcePath.isFile() && desstinationPath.isDirectory()){
+//
+//					Random r = new Random();
+//					int Low = 100000;
+//					int High = 999999;
+//					int random = r.nextInt(High - Low) + Low;
+//
+//
+//
+//
+//
+//					File destinationFile = new File(desstinationPath + "/" +String.valueOf(random)+".png");
+//					//File destinationFile = new File(desstinationPath + "/" + screenshotName+"_"+String.valueOf(random)+".png");
+//                    if(destinationFile.exists()){
+//                        destinationFile.delete();
+//						Thread.sleep(5000);
+//                        FileUtils.copyFile(sourcePath, destinationFile);
+//                    }else{
+//						//Thread.sleep(5000);
+//
+//                        FileUtils.copyFile(sourcePath, destinationFile);
+//                    }
+//                    Thread.sleep(5000);
+//                    //Reporter.addScreenCaptureFromPath(destinationFile.getAbsolutePath());
+//                    Reporter.addScreenCaptureFromPath(destinationFile.getAbsolutePath());
+//                    //destinationFile.delete();
+//					Thread.sleep(2000);
+//
+//                }
+//
+//
+//            } catch (IOException e) {
+//
+//            }
+			//-------------code imp--------------
 
 
         driver.quit();
 
-		log.info("");
+		//log.info("");
 	}
 
+	@After(order = 0)
+	public void AfterStep(){
+		Reporter.loadXMLConfig(new File("//DHTQTP01/MobileScreenShots/Config_Web/extent-config.xml"));
+		//Reporter.loadXMLConfig(new File(FileReaderManager.getInstance().getConfigReader().getReportConfigPath()));
+        Reporter.setSystemInfo("User Name", System.getProperty("user.name"));
+        Reporter.setSystemInfo("Time Zone", System.getProperty("user.timezone"));
+        Reporter.setSystemInfo("64 Bit", "Windows 10");
+        Reporter.setSystemInfo("2.53.0", "Selenium");
+        Reporter.setSystemInfo("3.3.9", "Maven");
+        Reporter.setSystemInfo("1.8.0_66", "Java Version");
+        Reporter.setTestRunnerOutput("Cucumber JUnit Test Runner");
+
+
+
+	}
 
 	public void readinfExcelInBefore(){
 		GetDataFromExcel getDataFromExcel = new GetDataFromExcel();

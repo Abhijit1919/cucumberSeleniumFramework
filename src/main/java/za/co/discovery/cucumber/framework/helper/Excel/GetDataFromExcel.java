@@ -43,7 +43,7 @@ public class GetDataFromExcel {
                 myList.add(i, operationMap);
             }
             Storage.getInstance().setPropertyList(myList);
-            LOG.info("(Error) We did not find the question you specified on the list");
+            LOG.info("(Error) We did not find the name of operation you specified on the excel.");
             return myList;
         } catch (Exception e) {
             //results.setTEST_STEP_DESCRIPTION("(Error) " + e.getMessage());

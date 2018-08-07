@@ -2,6 +2,7 @@ package za.co.discovery.cucumber.framework.helper.genericHelper;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import za.co.discovery.cucumber.framework.helper.Logger.LoggerHelper;
 
 
@@ -44,7 +45,7 @@ public class GenericHelper{
 	
 	public boolean isDisplayed(WebElement element) {
 		try {
-			element.isDisplayed();
+			element.getText();
 			log.info("element is displayed.."+element);
 			return true;
 		} catch (Exception e) {
@@ -73,19 +74,23 @@ public class GenericHelper{
 	}
 	
 
-	public static synchronized String getElementText( WebElement element) {
-		if (null == element) {
-			log.info("weblement is null");
-			return null;
-		}
-		String elementText = null;
+	public boolean getElementText( WebElement element , String text) {
+//		if (null == element) {
+//			log.info("weblement is null");
+//			return false;
+//		}
+//		boolean elementText;
 		try {
-			elementText = element.getText();
+			//Assert.assertEquals(element.getText(),text);
+		     Assert.assertEquals(element.getText(),text);
+
 		} catch (Exception ex) {
 			log.info("Element not found " + ex);
 		}
-		return elementText;
+		return true;
 	}
+
+
 
 
 

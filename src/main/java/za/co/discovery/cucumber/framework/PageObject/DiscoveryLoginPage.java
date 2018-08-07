@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import za.co.discovery.cucumber.framework.configreader.ObjectRepo;
 import za.co.discovery.cucumber.framework.helper.Hook.*;
 import za.co.discovery.cucumber.framework.helper.Logger.LoggerHelper;
 import za.co.discovery.cucumber.framework.helper.Wait.WaitHelper;
@@ -31,7 +30,7 @@ public class DiscoveryLoginPage {
         this.driver = driver;
         PageFactory.initElements(driver, this);
         waitHelper = new WaitHelper(driver);
-        waitHelper.waitForElement(driver, loginButton, ObjectRepo.reader.getExplicitWait());
+       // waitHelper.waitForElement(driver, loginButton, ObjectRepo.reader.getExplicitWait());
     }
 
     public void clickEventHandler(String action){
@@ -41,6 +40,27 @@ public class DiscoveryLoginPage {
         hookClickEvent.clickEvent(action);
 
     }
+
+    public void dropDownEventHandler(String action){
+
+
+        HookDropDownEvent dropDownEvent = new HookDropDownEvent();
+        dropDownEvent.dropDownSelectEvent(action);
+
+
+    }
+    public void dropDownSelectSpecifiValue(String action, String value){
+
+
+        HookDropDownSpecificValue hookDropDownSpecificValue = new HookDropDownSpecificValue();
+        hookDropDownSpecificValue.dropDownSelectValue(action,value);
+
+
+    }
+
+
+
+
 
     public boolean verifySuccessLoginMessage(){
         return new GenericHelper().isDisplayed(yourHealthPlan);
@@ -55,7 +75,7 @@ public class DiscoveryLoginPage {
 
 
         HookVerifyHeader hookVerifyHeader = new HookVerifyHeader();
-        return hookVerifyHeader.verifyHeader(header);
+        return hookVerifyHeader.verifHeader(header);
     }
 
 
@@ -78,4 +98,15 @@ public class DiscoveryLoginPage {
         hookOpenWebSite.openWebSite(webSite);
 
     }
+
+    public boolean verifyTextEventHandler(String action,String text){
+
+
+        HookVerifyText hookVerifyText = new HookVerifyText();
+        return hookVerifyText.verifyText(action,text);
+    }
+
+
+
+
 }

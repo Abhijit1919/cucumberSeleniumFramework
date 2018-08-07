@@ -101,6 +101,7 @@
     <orderEntry type="library" name="Maven: com.vimalselvam:cucumber-extentsreport:3.0.2" level="project" />
     <orderEntry type="library" name="Maven: com.aventstack:extentreports:3.1.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpmime:4.5.2" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:20140107" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: info.cukes:cucumber-picocontainer:1.2.5" level="project" />
     <orderEntry type="library" name="Maven: info.cukes:cucumber-jvm-deps:1.0.5" level="project" />
     <orderEntry type="library" name="Maven: info.cukes:gherkin:2.12.2" level="project" />

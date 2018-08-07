@@ -83,7 +83,7 @@ public class Reporter {
      */
     public static void addScreenCaptureFromPath(String imagePath) throws IOException {
         getCurrentStep().addScreenCaptureFromPath(imagePath);
-    }
+   }
 
     /**
      * Adds the screenshot from the given path with the given title to the current step

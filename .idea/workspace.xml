@@ -2,16 +2,127 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86a1eb9b-33ba-47fe-9af2-8868443710c3" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/listener/SendHttpPostRequestString.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Cucumber.iml" afterPath="$PROJECT_DIR$/Cucumber.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/PageObject/DiscoveryLoginPage.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/PageObject/DiscoveryLoginPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/PageObject/ShoppinCartSummaryPage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/DropDown/DropDownHelper.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/DropDown/DropDownHelper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Excel/GetDataFromExcel.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Excel/GetDataFromExcel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookClickEvent.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookClickEvent.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookEnterEvent.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookEnterEvent.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookVerifyHeader.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookVerifyHeader.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/TestBase.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/TestBase.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/genericHelper/GenericHelper.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/genericHelper/GenericHelper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/listener/Reporter.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/listener/Reporter.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ScreensInformation.xlsx" afterPath="$PROJECT_DIR$/src/main/resources/ScreensInformation.xlsx" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/configfile/config.properties" afterPath="$PROJECT_DIR$/src/main/resources/configfile/config.properties" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/FacebookLoginFeatureRunner.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/login/AMSLoginRunner.java" afterPath="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/login/AMSLoginRunner.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/featurefile/login/AMS_Login.feature" afterPath="$PROJECT_DIR$/src/test/resources/featurefile/login/AMS_Login.feature" />
-      <change beforePath="$PROJECT_DIR$/target/Selenium.log" afterPath="$PROJECT_DIR$/target/Selenium.log" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/productCategory/TestProductsCountBasedOnColorRunner.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/productCategory/TestTotalNumberOfWomenDressProductRunner.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/registration/RegistrationRunner.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/LoginToFacebook.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/stepdefinition/LoginToFacebook.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/ProductCategory/ProductCategory.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/stepdefinition/ProductCategory/ProductCategory.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToAutomationPractices.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToAutomationPractices.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToDiscoveryWebSite.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToDiscoveryWebSite.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/registration/Registration.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/stepdefinition/registration/Registration.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/registration/RegistrationWithTable.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/stepdefinition/registration/RegistrationWithTable.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/featurefile/FacebookLogin.feature" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/featurefile/login/AMS_Login.feature" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/featurefile/login/AMS_Nagithion_To_MyDetails.feature" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/featurefile/login/login.feature" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/featurefile/notes" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/featurefile/productCategory/DiscoveryLogin.feature" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/featurefile/productCategory/TestProductsCountBasedOnColor.feature" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/featurefile/productCategory/TestTotalNumberOfWomenDressProductRunner.feature" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/featurefile/registration/Registration.feature" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/Selenium.log" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/ScreensInformation.xlsx" afterPath="$PROJECT_DIR$/target/classes/ScreensInformation.xlsx" />
-      <change beforePath="$PROJECT_DIR$/target/classes/~$ScreensInformation.xlsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-extend-reports/ExtenreportGenrate.html" afterPath="$PROJECT_DIR$/target/cucumber-extend-reports/ExtenreportGenrate.html" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.js" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/featurefile/login/AMS_Login.feature" afterPath="$PROJECT_DIR$/target/test-classes/featurefile/login/AMS_Login.feature" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configfile/config.properties" afterPath="$PROJECT_DIR$/target/classes/configfile/config.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/PageObject/DiscoveryLoginPage.class" afterPath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/PageObject/DiscoveryLoginPage.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/PageObject/ShoppinCartSummaryPage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/helper/DropDown/DropDownHelper.class" afterPath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/helper/DropDown/DropDownHelper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/helper/Excel/GetDataFromExcel.class" afterPath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/helper/Excel/GetDataFromExcel.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/helper/Hook/HookClickEvent.class" afterPath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/helper/Hook/HookClickEvent.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/helper/Hook/HookEnterEvent.class" afterPath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/helper/Hook/HookEnterEvent.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/helper/Hook/HookVerifyHeader.class" afterPath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/helper/Hook/HookVerifyHeader.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/helper/TestBase/TestBase$1.class" afterPath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/helper/TestBase/TestBase$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/helper/TestBase/TestBase$2.class" afterPath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/helper/TestBase/TestBase$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/helper/TestBase/TestBase.class" afterPath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/helper/TestBase/TestBase.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/helper/genericHelper/GenericHelper.class" afterPath="$PROJECT_DIR$/target/classes/za/co/discovery/cucumber/framework/helper/genericHelper/GenericHelper.class" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-extend-reports/ExtenreportGenrate.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-extend-reports/screenshots/_V_e_r_i_f_y_ _n_a_v_i_g_a_t_i_o_n_ _t_o_ _G_i_v_e___D_e_p_e_n_d_a_n_t___A_c_c_e_s_s__247758.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-extend-reports/screenshots/_V_e_r_i_f_y_ _n_a_v_i_g_a_t_i_o_n_ _t_o_ _G_i_v_e___D_e_p_e_n_d_a_n_t___A_c_c_e_s_s__878944.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-extend-reports/screenshots/_V_e_r_i_f_y_ _n_a_v_i_g_a_t_i_o_n_ _t_o_ _M_Y___P_L_A_N_S___A_N_D___B_E_N_E_F_I_T_S__399478.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-extend-reports/screenshots/_V_e_r_i_f_y_ _n_a_v_i_g_a_t_i_o_n_ _t_o_ _M_Y___P_L_A_N_S___A_N_D___B_E_N_E_F_I_T_S__949845.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-extend-reports/screenshots/_V_e_r_i_f_y_ _n_a_v_i_g_a_t_i_o_n_ _t_o_ _M_a_n_a_g_e___C_o_n_s_e_n_t__262913.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-extend-reports/screenshots/_V_e_r_i_f_y_ _n_a_v_i_g_a_t_i_o_n_ _t_o_ _P_e_r_s_o_n_a_l___I_n_f_o_r_m_a_t_i_o_n__257214.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-extend-reports/screenshots/_V_e_r_i_f_y_ _n_a_v_i_g_a_t_i_o_n_ _t_o_ _V_i_e_w___D_e_p_e_n_d_a_n_t_s__300390.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/formatter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/jquery-1.8.2.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/screenshots/_V_e_r_i_f_y_ _T_o_t_a_l_ _N_u_m_b_e_r_ _O_f_ _W_o_m_e_n_ _D_r_e_s_s_ _P_r_o_d_u_c_t_s_.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/testng-failed.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.cucumber.framework.runner.productCategory.TestProductsCountBasedOnColorRunner.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.cucumber.framework.runner.productCategory.TestTotalNumberOfWomenDressProductRunner.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/Command line test.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/classes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/groups.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/main.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-alphabetical.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods-not-run.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/reporter-output.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/testng.xml.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/featurefile/FacebookLogin.feature" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/featurefile/login/AMS_Login.feature" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/featurefile/login/AMS_Nagithion_To_MyDetails.feature" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/featurefile/login/login.feature" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/featurefile/notes" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/featurefile/productCategory/DiscoveryLogin.feature" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/featurefile/productCategory/TestProductsCountBasedOnColor.feature" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/featurefile/productCategory/TestTotalNumberOfWomenDressProductRunner.feature" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/featurefile/registration/Registration.feature" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/co/discovery/cucumber/framework/runner/FacebookLoginFeatureRunner.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/za/co/discovery/cucumber/framework/runner/login/AMSLoginRunner.class" afterPath="$PROJECT_DIR$/target/test-classes/za/co/discovery/cucumber/framework/runner/login/AMSLoginRunner.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/co/discovery/cucumber/framework/runner/productCategory/TestProductsCountBasedOnColorRunner.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/co/discovery/cucumber/framework/runner/productCategory/TestTotalNumberOfWomenDressProductRunner.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/co/discovery/cucumber/framework/runner/registration/RegistrationRunner.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/co/discovery/cucumber/framework/stepdefinition/LoginToFacebook.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/co/discovery/cucumber/framework/stepdefinition/ProductCategory/ProductCategory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToAutomationPractices.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToDiscoveryWebSite.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/co/discovery/cucumber/framework/stepdefinition/registration/Registration.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/co/discovery/cucumber/framework/stepdefinition/registration/RegistrationWithTable.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,21 +149,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="AMS_Login.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/featurefile/login/AMS_Login.feature">
+      <file leaf-file-name="LoginToDiscoveryWebSite.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToDiscoveryWebSite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="64" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="67" />
+            <state relative-caret-position="276">
+              <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AMS_Nagithion_To_MyDetails.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/featurefile/login/AMS_Nagithion_To_MyDetails.feature">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+            <state relative-caret-position="6600">
+              <caret line="300" column="31" lean-forward="false" selection-start-line="300" selection-start-column="31" selection-end-line="300" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AMS_StartToEnd.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/featurefile/login/AMS_StartToEnd.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-132">
+              <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Malcore_Login.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/featurefile/login/Malcore_Login.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="115" column="68" lean-forward="false" selection-start-line="115" selection-start-column="68" selection-end-line="115" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="866">
+              <caret line="228" column="2" lean-forward="false" selection-start-line="228" selection-start-column="2" selection-end-line="228" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/configfile/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MalcoreLoginRunner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/login/MalcoreLoginRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,78 +222,18 @@
       <file leaf-file-name="AMSLoginRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/login/AMSLoginRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExtentCucumberFormatter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/listener/ExtentCucumberFormatter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="227" column="13" lean-forward="false" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WriteExtentReport.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/listener/WriteExtentReport.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="9" column="89" lean-forward="false" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
+              <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiscoveryLogin.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/featurefile/productCategory/DiscoveryLogin.feature">
+      <file leaf-file-name="GenericHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/genericHelper/GenericHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginToDiscoveryWebSite.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToDiscoveryWebSite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1672">
-              <caret line="84" column="41" lean-forward="false" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiscoveryLoginPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/PageObject/DiscoveryLoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="62" column="34" lean-forward="false" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/featurefile/login/login.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiscoveryLoginRunner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/login/DiscoveryLoginRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="13" column="54" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="54" />
+            <state relative-caret-position="1606">
+              <caret line="76" column="19" lean-forward="false" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -170,7 +271,16 @@
       <find>take</find>
       <find>befor</find>
       <find>cuc</find>
+      <find>common-io</find>
+      <find>Theam</find>
+      <find>Sk</find>
+      <find>Malcor_YOUR_DETAILS</find>
+      <find>AMS_Membership_certificate_Title</find>
+      <find>We did not find the question you specified on the list</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\Users\abhijit1\IdeaProjects\CucumberSeleniumTestNgFramework\cucumberSeleniumFrameworkTestNg\target\cucumber-extend-reports\screenshots</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -183,35 +293,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/cucumber/framework/listener/ExtentCucumberFormatter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cucumber/framework/listener/writeExtentReport.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cucumber/framework/listener/WriteExtentReport.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cucumber/framework/stepdefinition/login/LoginToDiscoveryWebSite.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/featurefile/productCategory/DiscoveryLogin.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cucumber/framework/runner/login/LoginRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cucumber/framework/testng/AMSLogin.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cucumber/framework/runner/login/AMSLoginRunner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cucumber/framework/helper/Hook/HookClickEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cucumber/framework/helper/TestBase/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/testng/discoveryLogin.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/testng/AMSLogin.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/configreader/PropertyFileReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/configuration/browser/ChromeBrowser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/configuration/browser/FirefoxBrowser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/configuration/browser/IExploreBrowser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Alert/AlertHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookClickEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookEnterEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookOpenWebSite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookVerifyHeader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookVerifyPageTitle.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Logger/LoggerHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/TestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/listener/WriteExtentReport.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/managers/FileReaderManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/PageObject/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/PageObject/ShoppinCartSummaryPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/PageObject/DiscoveryLoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/PageObject/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/PageObject/ProductCategoryPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/PageObject/RegistrationPage.java" />
@@ -221,7 +307,6 @@
         <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/productCategory/TestTotalNumberOfWomenDressProductRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/FacebookLoginFeatureRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToAutomationPractices.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToDiscoveryWebSite.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/ProductCategory/ProductCategory.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/registration/Registration.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/registration/RegistrationWithTable.java" />
@@ -229,11 +314,36 @@
         <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/testng/dummy.xml" />
         <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/testng/testNG.xml" />
         <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/registration/RegistrationRunner.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/configfile/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Excel/GetDataFromExcel.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/featurefile/login/AMS_Login.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/featurefile/login/AMS_Nagithion_To_MyDetails.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/Xm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/listener/SendHttpPostRequestString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/XmlRequestOTP.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToDiscoveryWebSite.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/featurefile/login/AMS_Login.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/listener/Reporter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/genericHelper/OtpGenrater.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/genericHelper/OtpGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookDropDownEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookVerifyHeader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookVerifyText.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/genericHelper/GenericHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/PageObject/DiscoveryLoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/DropDown/DropDownHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookClickEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToDiscoveryWebSite.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/featurefile/login/AMS_Login.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/DropDown/excel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookDropDownSpecificValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookEnterEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Excel/GetDataFromExcel.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/configfile/config.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/login/AMSLoginRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TrasnferFiles/TransferFiles.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/featurefile/login/AMS_StartToEnd.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/login/MalcoreLoginRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/featurefile/login/Malcore_Login.feature" />
       </list>
     </option>
   </component>
@@ -273,13 +383,7 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Cucumber" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Cucumber" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.aventstack:extentreports:3.1.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
       </expand>
       <select />
@@ -287,10 +391,13 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2391" />
-    <option name="width" value="1618" />
-    <option name="height" value="1248" />
+    <option name="y" value="-9" />
+    <option name="width" value="2418" />
+    <option name="height" value="1318" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -306,9 +413,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -347,62 +453,29 @@
               <item name="cucumberSeleniumFrameworkTestNg" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberSeleniumFrameworkTestNg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberSeleniumFrameworkTestNg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberSeleniumFrameworkTestNg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberSeleniumFrameworkTestNg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="runner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberSeleniumFrameworkTestNg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="runner" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumberSeleniumFrameworkTestNg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Cucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="cucumberSeleniumFrameworkTestNg" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="configfile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumberSeleniumFrameworkTestNg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumberSeleniumFrameworkTestNg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="featurefile" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -410,7 +483,7 @@
               <item name="Cucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="cucumberSeleniumFrameworkTestNg" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="featurefile" type="462c0819:PsiDirectoryNode" />
               <item name="login" type="462c0819:PsiDirectoryNode" />
@@ -420,15 +493,42 @@
               <item name="cucumberSeleniumFrameworkTestNg" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="featurefile" type="462c0819:PsiDirectoryNode" />
-              <item name="productCategory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumberSeleniumFrameworkTestNg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumberSeleniumFrameworkTestNg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumberSeleniumFrameworkTestNg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumberSeleniumFrameworkTestNg" type="462c0819:PsiDirectoryNode" />
+              <item name="target.cucumber-extend-reports" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -437,19 +537,29 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.5045956" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="za.co.discovery.cucumber.framework" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="za.co.discovery.cucumber.framework.helper.Hook" />
+      <recent name="za.co.discovery.cucumber.framework.runner.login" />
       <recent name="com.cucumber.framework.runner.login" />
       <recent name="com.cucumber.framework.helper.Hook" />
       <recent name="com.cucumber.framework.utility" />
-      <recent name="com.cucumber.framework.managers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\abhijit1\IdeaProjects\CucumberSeleniumTestNgFramework\cucumberSeleniumFrameworkTestNg\src\main\java\za\co\discovery\cucumber\framework\helper\TrasnferFiles" />
+      <recent name="C:\Users\abhijit1\IdeaProjects\CucumberSeleniumTestNgFramework\cucumberSeleniumFrameworkTestNg\src\main\resources\featurefile\login" />
       <recent name="C:\Users\abhijit1\IdeaProjects\CucumberSeleniumTestNgFramework\cucumberSeleniumFrameworkTestNg\src\main\resources" />
-      <recent name="C:\Users\abhijit1\IdeaProjects\CucumberSeleniumFrameworkTest\cucumberSeleniumFramework\src\test\java\com\cucumber\framework\testng" />
-      <recent name="C:\Users\abhijit1\IdeaProjects\CucumberSeleniumFrameworkTest\cucumberSeleniumFramework\src\main\resources" />
-      <recent name="C:\Users\abhijit1\IdeaProjects\CucumberSeleniumFrameworkTest\cucumberSeleniumFramework\src\main\java\com\cucumber\framework" />
+      <recent name="C:\Users\abhijit1\IdeaProjects\CucumberSeleniumTestNgFramework\cucumberSeleniumFrameworkTestNg\src\main\java\za\co\discovery\cucumber\framework\listener" />
+      <recent name="C:\Users\abhijit1\IdeaProjects\CucumberSeleniumTestNgFramework\cucumberSeleniumFrameworkTestNg" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -464,7 +574,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AMSLoginRunner (1)">
+  <component name="RunManager" selected="TestNG.MalcoreLoginRunner">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -485,17 +595,40 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="Feature: AMS_Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: AMS_Login (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/featurefile/login/AMS_Login.feature" />
+      <option name="myFilePath" value="$PROJECT_DIR$/src/main/resources/featurefile/login/AMS_Login.feature" />
       <option name="GLUE" value="za.co.discovery.cucumber.framework.helper.TestBase za.co.discovery.cucumber.framework.stepdefinition.login" />
       <option name="myNameFilter" value="" />
       <option name="myGeneratedName" value="Feature: AMS_Login" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Cucumber" />
+      <envs />
+    </configuration>
+    <configuration name="Feature: Malcore_Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/main/resources/featurefile/login/Malcore_Login.feature" />
+      <option name="GLUE" value="za.co.discovery.cucumber.framework.helper.TestBase za.co.discovery.cucumber.framework.stepdefinition.login" />
+      <option name="myNameFilter" value="" />
+      <option name="myGeneratedName" value="Feature: Malcore_Login" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
@@ -567,65 +700,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="AMSLoginRunner" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.cucumber.framework.runner.login.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Cucumber" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.cucumber.framework.runner.login" />
-      <option name="MAIN_CLASS_NAME" value="com.cucumber.framework.runner.login.AMSLoginRunner" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="C:/Users/abhijit1/IdeaProjects/CucumberSeleniumFrameworkTest/cucumberSeleniumFramework/src/test/java/com/cucumber/framework/testng/AMSLogin.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Cucumber" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/cucumber/framework/testng/AMSLogin.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration name="C:/Users/abhijit1/IdeaProjects/CucumberSeleniumFrameworkTest/cucumberSeleniumFramework/src/test/java/za/co/discovery/cucumber/framework/testng/AMSLogin.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Cucumber" />
@@ -637,6 +711,38 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="MalcoreLoginRunner" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="za.co.discovery.cucumber.framework.runner.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Cucumber" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="za.co.discovery.cucumber.framework.runner.login" />
+      <option name="MAIN_CLASS_NAME" value="za.co.discovery.cucumber.framework.runner.login.MalcoreLoginRunner" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -687,19 +793,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.AMSLoginRunner" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/abhijit1/IdeaProjects/CucumberSeleniumFrameworkTest/cucumberSeleniumFramework/src/test/java/com/cucumber/framework/testng/AMSLogin.xml" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/abhijit1/IdeaProjects/CucumberSeleniumFrameworkTest/cucumberSeleniumFramework/src/test/java/za/co/discovery/cucumber/framework/testng/AMSLogin.xml" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.AMSLoginRunner (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: AMS_Login" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/abhijit1/IdeaProjects/CucumberSeleniumFrameworkTest/cucumberSeleniumFramework/src/test/java/za/co/discovery/cucumber/framework/testng/AMSLogin.xml" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.AMSLoginRunner (1)" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.MalcoreLoginRunner" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: Malcore_Login" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: AMS_Login (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.AMSLoginRunner (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: AMS_Login" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/abhijit1/IdeaProjects/CucumberSeleniumFrameworkTest/cucumberSeleniumFramework/src/test/java/za/co/discovery/cucumber/framework/testng/AMSLogin.xml" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/abhijit1/IdeaProjects/CucumberSeleniumFrameworkTest/cucumberSeleniumFramework/src/test/java/com/cucumber/framework/testng/AMSLogin.xml" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.AMSLoginRunner" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.MalcoreLoginRunner" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.AMSLoginRunner (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: AMS_Login (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: Malcore_Login" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/abhijit1/IdeaProjects/CucumberSeleniumFrameworkTest/cucumberSeleniumFramework/src/test/java/za/co/discovery/cucumber/framework/testng/AMSLogin.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -723,77 +829,100 @@
       <workItem from="1522055162508" duration="38897000" />
       <workItem from="1523364727272" duration="6668000" />
       <workItem from="1523433532380" duration="3663000" />
+      <workItem from="1525948651125" duration="13849000" />
+      <workItem from="1526980807176" duration="12616000" />
+      <workItem from="1527153578696" duration="4509000" />
+      <workItem from="1527494271296" duration="20839000" />
+      <workItem from="1528273051905" duration="599000" />
+      <workItem from="1528357302143" duration="2475000" />
+      <workItem from="1528793740247" duration="10235000" />
+      <workItem from="1529481323252" duration="86594000" />
+      <workItem from="1530606881613" duration="26523000" />
+      <workItem from="1531123440191" duration="7568000" />
+      <workItem from="1531209388885" duration="5708000" />
+      <workItem from="1531295277526" duration="102999000" />
+      <workItem from="1532331596290" duration="103479000" />
+      <workItem from="1532887367884" duration="69036000" />
+      <workItem from="1533541073237" duration="19049000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AMSLoginRunner_(1) - 2018.04.10 at 15h 02m 26s.xml">
+    <history-entry file="AMSLoginRunner_(1) - 2018.08.06 at 10h 40m 52s.xml">
       <configuration name="AMSLoginRunner (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AMSLoginRunner_(1) - 2018.04.10 at 15h 04m 54s.xml">
+    <history-entry file="AMSLoginRunner_(1) - 2018.08.06 at 10h 43m 23s.xml">
       <configuration name="AMSLoginRunner (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AMSLoginRunner_(1) - 2018.04.10 at 15h 05m 20s.xml">
+    <history-entry file="AMSLoginRunner_(1) - 2018.08.06 at 10h 45m 47s.xml">
       <configuration name="AMSLoginRunner (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AMSLoginRunner_(1) - 2018.04.10 at 15h 11m 03s.xml">
+    <history-entry file="AMSLoginRunner_(1) - 2018.08.06 at 11h 01m 04s.xml">
       <configuration name="AMSLoginRunner (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AMSLoginRunner_(1) - 2018.04.10 at 15h 13m 16s.xml">
+    <history-entry file="AMSLoginRunner_(1) - 2018.08.06 at 12h 06m 33s.xml">
       <configuration name="AMSLoginRunner (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AMSLoginRunner_(1) - 2018.04.10 at 16h 47m 32s.xml">
-      <configuration name="AMSLoginRunner (1)" configurationId="TestNG" />
+    <history-entry file="MalcoreLoginRunner - 2018.08.06 at 14h 34m 53s.xml">
+      <configuration name="MalcoreLoginRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AMSLoginRunner_(1) - 2018.04.10 at 17h 20m 25s.xml">
-      <configuration name="AMSLoginRunner (1)" configurationId="TestNG" />
+    <history-entry file="MalcoreLoginRunner - 2018.08.06 at 14h 39m 54s.xml">
+      <configuration name="MalcoreLoginRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AMSLoginRunner_(1) - 2018.04.10 at 17h 22m 28s.xml">
-      <configuration name="AMSLoginRunner (1)" configurationId="TestNG" />
+    <history-entry file="MalcoreLoginRunner - 2018.08.06 at 14h 48m 14s.xml">
+      <configuration name="MalcoreLoginRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AMSLoginRunner_(1) - 2018.04.10 at 17h 25m 44s.xml">
-      <configuration name="AMSLoginRunner (1)" configurationId="TestNG" />
+    <history-entry file="MalcoreLoginRunner - 2018.08.06 at 15h 30m 11s.xml">
+      <configuration name="MalcoreLoginRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AMSLoginRunner_(1) - 2018.04.10 at 17h 33m 54s.xml">
-      <configuration name="AMSLoginRunner (1)" configurationId="TestNG" />
+    <history-entry file="MalcoreLoginRunner - 2018.08.06 at 16h 38m 36s.xml">
+      <configuration name="MalcoreLoginRunner" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232005000" />
+    <option name="totallyTimeSpent" value="718083000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2391" y="0" width="1618" height="1248" extended-state="6" />
-    <editor active="true" />
+    <frame x="2391" y="-9" width="2418" height="1318" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39809194" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1309987" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44690675" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19385141" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12575889" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35927367" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921588" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26900086" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292058" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22899354" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4579358" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40443215" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294423" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14404432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14382786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -801,29 +930,29 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1309987" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0038910506" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921588" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921588" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22899354" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40443215" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4579358" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39809194" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44690675" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22876558" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294423" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29766536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14404432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26906553" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14382786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -840,6 +969,32 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -847,13 +1002,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/TestBase.java</url>
-          <line>84</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToAutomationPractices.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToAutomationPractices.java</url>
           <line>10</line>
           <properties />
           <option name="timeStamp" value="53" />
@@ -865,58 +1014,28 @@
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/configreader/ObjectRepo.java</url>
-          <line>2</line>
-          <properties />
-          <option name="timeStamp" value="93" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/TestBase.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="101" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToAutomationPractices.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToAutomationPractices.java</url>
           <line>17</line>
           <properties />
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToAutomationPractices.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToAutomationPractices.java</url>
           <line>22</line>
           <properties />
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToAutomationPractices.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToAutomationPractices.java</url>
           <line>23</line>
           <properties />
           <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToDiscoveryWebSite.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="142" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/genericHelper/GenericHelper.java</url>
-          <line>45</line>
+          <line>46</line>
           <properties />
           <option name="timeStamp" value="143" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/TestBase.java</url>
-          <line>172</line>
-          <properties />
-          <option name="timeStamp" value="147" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToDiscoveryWebSite.java</url>
-          <line>84</line>
-          <properties />
-          <option name="timeStamp" value="165" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookVerifyHeader.java</url>
@@ -943,88 +1062,209 @@
           <option name="timeStamp" value="171" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToDiscoveryWebSite.java</url>
-          <line>96</line>
-          <properties />
-          <option name="timeStamp" value="183" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookOpenWebSite.java</url>
           <line>31</line>
           <properties />
           <option name="timeStamp" value="192" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/TestBase.java</url>
-          <line>184</line>
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/XmlRequestOTP.java</url>
+          <line>7</line>
           <properties />
-          <option name="timeStamp" value="203" />
+          <option name="timeStamp" value="214" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/TestBase.java</url>
-          <line>193</line>
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/XmlRequestOTP.java</url>
+          <line>44</line>
           <properties />
-          <option name="timeStamp" value="204" />
+          <option name="timeStamp" value="217" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/listener/Reporter.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/XmlRequestOTP.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Wait/WaitHelper.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Wait/WaitHelper.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="331" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/genericHelper/GenericHelper.java</url>
           <line>84</line>
           <properties />
-          <option name="timeStamp" value="205" />
+          <option name="timeStamp" value="356" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Excel/GetDataFromExcel.java</url>
-          <line>34</line>
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookVerifyText.java</url>
+          <line>31</line>
           <properties />
-          <option name="timeStamp" value="207" />
+          <option name="timeStamp" value="357" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/TestBase.java</url>
-          <line>161</line>
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookDropDownSpecificValue.java</url>
+          <line>25</line>
           <properties />
-          <option name="timeStamp" value="208" />
+          <option name="timeStamp" value="400" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/TestBase.java</url>
-          <line>240</line>
-          <properties />
-          <option name="timeStamp" value="211" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Excel/GetDataFromExcel.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/DropDown/DropDownHelper.java</url>
           <line>30</line>
           <properties />
-          <option name="timeStamp" value="212" />
+          <option name="timeStamp" value="410" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/DropDown/DropDownHelper.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/DropDown/DropDownHelper.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="413" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToDiscoveryWebSite.java</url>
+          <line>167</line>
+          <properties />
+          <option name="timeStamp" value="434" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToDiscoveryWebSite.java</url>
+          <line>152</line>
+          <properties />
+          <option name="timeStamp" value="442" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookDropDownSpecificValue.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="443" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookDropDownSpecificValue.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="444" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookDropDownSpecificValue.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="445" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookDropDownSpecificValue.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToDiscoveryWebSite.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="462" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookEnterEvent.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="463" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookEnterEvent.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="464" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookEnterEvent.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="468" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookEnterEvent.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="469" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookEnterEvent.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="470" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookEnterEvent.java</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="471" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookEnterEvent.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="472" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookEnterEvent.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="473" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/PageObject/DiscoveryLoginPage.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="474" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/TestBase.java</url>
-          <line>53</line>
-          <properties method="apply">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="9" />
+          <line>195</line>
+          <properties />
+          <option name="timeStamp" value="475" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/TestBase.java</url>
+          <line>201</line>
+          <properties />
+          <option name="timeStamp" value="476" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TrasnferFiles/TransferFiles.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="478" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TrasnferFiles/TransferFiles.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="479" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="213" />
+      <option name="time" value="480" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
-        <watch expression="element" />
-        <watch expression="clickData" />
-        <watch expression="i" language="JAVA" />
-        <watch expression="clickDataList" />
-        <watch expression="TestBase.driver" language="JAVA" custom="com.cucumber.framework.helper.TestBase.TestBase" />
-        <watch expression="TestBase.driver" language="JAVA" custom="com.cucumber.framework.helper.TestBase.TestBase" />
-        <watch expression="TestBase.driver.getTitle()" />
-        <watch expression="identifier.equals(TestBase.driver.getTitle()" />
-        <watch expression="scenario.isFailed()" />
-        <watch expression="cenario" />
-        <watch expression="scenario" />
-        <watch expression="scenario" language="JAVA" />
-        <watch expression="scenario" language="JAVA" />
+        <watch expression="webElement" />
+        <watch expression="value" />
+        <watch expression="value = &quot;SOUTH AFRICA&quot;" language="JAVA" />
+        <watch expression="webElement.isDisplayed()" language="JAVA" />
       </configuration>
       <configuration name="Application">
         <watch expression="objExl.workbook" />
@@ -1032,441 +1272,593 @@
         <watch expression="name.get(i).toString()" />
         <watch expression="name" />
       </configuration>
+      <configuration name="CucumberJavaRunConfigurationType">
+        <watch expression="splitOtpNumber" />
+        <watch expression="firstSplit" />
+        <watch expression="firstSplit" />
+        <watch expression="splitOtpXml[5].split(&quot;&lt;&quot;)" language="JAVA" />
+        <watch expression="splitOtpNumber" />
+        <watch expression="eventData" />
+        <watch expression="nameOfEvent" />
+        <watch expression="objExl.getColumnValues(0)" language="JAVA" />
+        <watch expression="objExl" />
+        <watch expression="objExl.getColumnValues(1)" />
+        <watch expression="objExl.getColumnValues(2)" />
+        <watch expression="objExl.getColumnValues(3)" />
+        <watch expression="objExl.getLastRowIndex()" />
+        <watch expression="driver" language="JAVA" />
+        <watch expression="webClient.getPage" />
+        <watch expression="webClient.getPage(&quot;https://testc2b.discovery.co.za/wsg/api/otp-lookup/1114444472&quot;)" language="JAVA" />
+        <watch expression="splitGeratedOTP.replaceAll(&quot;\&quot;&quot;,&quot;&quot;)" language="JAVA" />
+        <watch expression="myURL" />
+      </configuration>
     </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>TestBase.driver</expression-string>
+        <expression-string>webElement.isDisplayed()</expression-string>
         <language-id>JAVA</language-id>
-        <custom-info>com.cucumber.framework.helper.TestBase.TestBase</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>i</expression-string>
+        <expression-string>TestBase.driver.findElement(By.xpath(&quot;//*[@id='firstName']&quot;)).isDisplayed()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>value = &quot;SOUTH AFRICA&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TestBase.driver.findElement(By.id(&quot;dams-country-select&quot;)).isDisplayed()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TestBase.driver.findElement(By.id(&quot;dams-country-select&quot;)).sendKeys(&quot;South Africa&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TestBase.driver.findElement(By.id(&quot;dams-country-select&quot;)).click();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TestBase.driver.findElement(By.id(&quot;dams-category-select&quot;)).click();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TestBase.driver.findElement(By.id(&quot;id='dams-category-select&quot;)).click();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TestBase.driver.findElement(By.xpath(&quot;//*[@id='dams-category-control']/label&quot;)).getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TestBase.dr</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="setValue">
+      <expression>
+        <expression-string>&quot;http://dhtapssrv.discsrv.co.za:7003/otp/spring-ws/otp&quot;</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>objExl.getSheetNameAtIndex(0).value.length</expression-string>
+        <expression-string>iFrameList</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>objExl.getSheetNameAtIndex(0).value</expression-string>
+        <expression-string>webElement</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>objExl.getSheetNameAtIndex(0)</expression-string>
+        <expression-string>TestBase.driver.findElement(By.xpath(&quot;//*[@id='edit']&quot;))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>objExl.getRows()</expression-string>
+        <expression-string>TestBase.driver.findElement(By.xpath(&quot;//*[@id='dams-category-container']&quot;))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>objExl.getRow()</expression-string>
+        <expression-string>TestBase.driver.findElement(By.xpath(&quot;//*[@id='dams-category-container']/span&quot;))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>objExl</expression-string>
+        <expression-string>TestBase.driver.findElement(By.xpath( &quot;//*[@id='dams-category-container']/span&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TestBase.driver.findElement(By.xpath(identifier))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TYPE.equals(&quot;xpath&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>identifier</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Alert/AlertHelper.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar!/cucumber/api/testng/TestNGCucumberRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="140">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/assertionHelper/VerificationHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/configreader/PropertyFileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="256">
+          <caret line="15" column="102" lean-forward="false" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="102" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Browser/BrowserHelper.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.48.2/selenium-support-2.48.2-sources.jar!/org/openqa/selenium/support/ui/FluentWait.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        <state relative-caret-position="75">
+          <caret line="260" column="0" lean-forward="false" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/DropDown/DropDownHelper.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.48.2/selenium-support-2.48.2-sources.jar!/org/openqa/selenium/support/ui/WebDriverWait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/configfile/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/genericHelper/GenericHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToAutomationPractices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="176">
+          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookEnterEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="14" column="59" lean-forward="false" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookOpenWebSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookVerifyHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookVerifyPageTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Logger/LoggerHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Wait/WaitHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/managers/FileReaderManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/PageObject/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        <state relative-caret-position="259">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/PageObject/ShoppinCartSummaryPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-java/1.2.4/cucumber-java-1.2.4-sources.jar!/cucumber/runtime/java/JavaStepDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="35" column="69" lean-forward="false" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
+        <state relative-caret-position="209">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/PageObject/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookVerifyHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookVerifyPageTitle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="45" column="54" lean-forward="false" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/PageObject/ProductCategoryPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.48.2/selenium-support-2.48.2-sources.jar!/org/openqa/selenium/support/events/EventFiringWebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        <state relative-caret-position="232">
+          <caret line="188" column="34" lean-forward="false" selection-start-line="188" selection-start-column="34" selection-end-line="188" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/PageObject/RegistrationPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.53.1/selenium-api-2.53.1-sources.jar!/org/openqa/selenium/By.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="92" column="62" lean-forward="false" selection-start-line="92" selection-start-column="62" selection-end-line="92" selection-end-column="62" />
+        <state relative-caret-position="210">
+          <caret line="160" column="38" lean-forward="false" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/login/LoginRunner.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-htmlunit-driver/2.48.2/selenium-htmlunit-driver-2.48.2-sources.jar!/org/openqa/selenium/htmlunit/HtmlUnitDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="1714" column="28" lean-forward="false" selection-start-line="1714" selection-start-column="28" selection-end-line="1714" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.53.1/selenium-api-2.53.1-sources.jar!/org/openqa/selenium/WebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="313" column="13" lean-forward="false" selection-start-line="313" selection-start-column="4" selection-end-line="313" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4-sources.jar!/cucumber/runtime/model/StepContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-leg-rc/2.48.2/selenium-leg-rc-2.48.2-sources.jar!/com/thoughtworks/selenium/webdriven/commands/Check.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.53.1/selenium-api-2.53.1-sources.jar!/org/openqa/selenium/WebElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/productCategory/TestProductsCountBasedOnColorRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="146" lean-forward="false" selection-start-line="7" selection-start-column="146" selection-end-line="7" selection-end-column="146" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/productCategory/TestTotalNumberOfWomenDressProductRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="146" lean-forward="false" selection-start-line="14" selection-start-column="146" selection-end-line="14" selection-end-column="146" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/FacebookLoginFeatureRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToAutomationPractices.java">
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_121/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-230">
-          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <caret line="1047" column="19" lean-forward="false" selection-start-line="1047" selection-start-column="19" selection-end-line="1047" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/ProductCategory/ProductCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-358">
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/registration/Registration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1518">
-          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/registration/RegistrationWithTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/LoginToFacebook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/testng/testNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="60" lean-forward="false" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/testng/dummy.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/cucumber-extend-reports/ExtenreportGenrate.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/featurefile/login/login.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookDropDownEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="45" lean-forward="false" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/DropDown/DropDownHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/registration/RegistrationRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/utility/ResourceHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookClickEvent.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="92" column="63" lean-forward="false" selection-start-line="92" selection-start-column="58" selection-end-line="92" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/configreader/ConfigReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/configreader/ObjectRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4-sources.jar!/cucumber/runtime/Timeout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-java/1.2.4/cucumber-java-1.2.4-sources.jar!/cucumber/runtime/java/JavaHookDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/featurefile/login/AMS_StartToEnd01.feature" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.48.2/selenium-support-2.48.2-sources.jar!/org/openqa/selenium/support/ui/Select.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="111" column="14" lean-forward="false" selection-start-line="111" selection-start-column="14" selection-end-line="111" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4-sources.jar!/cucumber/runtime/model/CucumberScenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4-sources.jar!/cucumber/runtime/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/DropDown/excel.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/XmlRequestOTP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/genericHelper/OtpGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4-sources.jar!/cucumber/runtime/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/utility/ExcelReader.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4-sources.jar!/cucumber/runtime/StepDefinitionMatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="221">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/testng/dummy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/featurefile/login/AMS_Login.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="704">
+          <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/testng/discoveryLogin.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookDropDownSpecificValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="59" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/testng/AMSLogin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="60" lean-forward="false" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/listener/Reporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        <state relative-caret-position="295">
+          <caret line="60" column="73" lean-forward="false" selection-start-line="60" selection-start-column="73" selection-end-line="60" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Excel/GetDataFromExcel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="374">
+          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookEnterEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3190">
-          <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/configfile/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/login/DiscoveryLoginRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="54" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/featurefile/login/login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToDiscoveryWebSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="84" column="41" lean-forward="false" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+        <state relative-caret-position="267">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/PageObject/DiscoveryLoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="62" column="34" lean-forward="false" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="34" />
+        <state relative-caret-position="321">
+          <caret line="105" column="33" lean-forward="false" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/featurefile/productCategory/DiscoveryLogin.feature">
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/Hook/HookVerifyText.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        <state relative-caret-position="506">
+          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/featurefile/login/AMS_Nagithion_To_MyDetails.feature">
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/genericHelper/GenericHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/featurefile/login/AMS_Login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="64" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="290" column="4" lean-forward="false" selection-start-line="290" selection-start-column="4" selection-end-line="295" selection-end-column="21" />
+        <state relative-caret-position="1606">
+          <caret line="76" column="19" lean-forward="false" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/login/AMSLoginRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/listener/ExtentCucumberFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="227" column="13" lean-forward="false" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/listener/WriteExtentReport.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="9" column="89" lean-forward="false" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/configfile/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TrasnferFiles/TransferFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="62" column="67" lean-forward="false" selection-start-line="62" selection-start-column="67" selection-end-line="62" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/helper/TestBase/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="866">
+          <caret line="228" column="2" lean-forward="false" selection-start-line="228" selection-start-column="2" selection-end-line="228" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/discovery/cucumber/framework/runner/login/MalcoreLoginRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/discovery/cucumber/framework/stepdefinition/login/LoginToDiscoveryWebSite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/featurefile/login/AMS_StartToEnd.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/featurefile/login/Malcore_Login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="115" column="68" lean-forward="false" selection-start-line="115" selection-start-column="68" selection-end-line="115" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6600">
+          <caret line="300" column="31" lean-forward="false" selection-start-line="300" selection-start-column="31" selection-end-line="300" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5045956" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5045956" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.jvnet.com4j:com4j:2.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Cucumber</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5045956" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5045956" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
